@@ -107,17 +107,32 @@ body {
   }
 }
 
-/* Add a line break for the mobile version (for example, when the screen width is less than 768px) */
-@media (max-width: 780px) {
-  .col-md-6 {
-    /* Adjust the width, padding, or other styles as needed */
-    width: 100%; /* Full width for mobile */
-    padding-right: 0; /* Remove padding for mobile */
-  }
+.Profec {
+  font-size: 30px !important;
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #00ff00,
+    #0000ff
+  ); /* Define your color gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+}
 
+/* Media query for mobile responsiveness */
+@media (max-width: 767px) {
   .Profec {
-    white-space: normal; /* Allow text to wrap */
-    text-align: center !important;
+    font-size: 22px !important;
+    background: linear-gradient(
+      90deg,
+      #ff0000,
+      #00ff00,
+      #0000ff
+    ); /* Adjust gradient for mobile */
+    border-radius: 10px;
+    padding: 5px;
   }
 }
 
