@@ -106,6 +106,21 @@ body {
     color: red; /* Back to the initial color for transition */
   }
 }
+
+/* Add a line break for the mobile version (for example, when the screen width is less than 768px) */
+@media (max-width: 780px) {
+  .col-md-6 {
+    /* Adjust the width, padding, or other styles as needed */
+    width: 100%; /* Full width for mobile */
+    padding-right: 0; /* Remove padding for mobile */
+  }
+
+  .Profec {
+    white-space: normal; /* Allow text to wrap */
+    text-align: center !important;
+  }
+}
+
 /* CSS for the aboutMe section */
 .aboutMe {
   background-color: #f2f2f2;
